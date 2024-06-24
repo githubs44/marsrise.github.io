@@ -1,0 +1,367 @@
+@media (max-width:600px) {
+    .text  .up img{
+        width: 20vw;
+    display: flex;
+    margin: auto;
+    margin-top: 7vw;
+    
+    }
+        
+    .left img{
+        width: 6vw;
+        transform: translateX(5vw);
+        
+    }
+    .low img{
+        width: 35vw;
+        display: flex;
+        margin: auto;
+    }
+    .btn img{
+        width: 15vw;
+        display: flex;
+        margin: auto;
+        transition: .3s;
+    }
+    .headr-sec{
+        background-image: url(../images/bg.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vw;
+        position: relative;
+    }
+    .scrol a{
+        color: #fff;
+        font-size: 1.5vw;
+    }
+    .scrol a:hover{
+        color: gray;
+    }
+    .scrol img{
+        width:5vw;
+        
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+        flex-direction: column;
+    }
+    .left-cnt {
+        width: 80%;
+        text-align: center;
+    }
+    .left-cnt .king{
+        width: 5vw;
+    }
+    .left-cnt h4{
+        font-size:4.4vw;
+        color: #fff;
+        font-family: hdd;
+    }
+    .left-cnt p{
+        color:#977583;
+        font-family: prg;
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+        width: 60%;
+        
+        margin: auto;
+        margin-top: 1vw;
+    }
+    .btun{
+        width: 14vw;
+        margin-top: 2vw;
+    }
+    .right-cnt {
+        width: 80%;
+    }
+    .right-cnt img{
+        display: flex;
+        margin: auto;
+        width: 45vw;
+    }
+
+    .p1{
+        position: absolute;
+        width: 33vw;
+        left: 25%;
+        top: 52%;
+    }
+    .p2{
+        position: absolute;
+        width:8vw;
+        left: 36%;
+        top:-1%;
+    }
+    .about-sec{
+        position: relative;
+        width: 100%;
+        margin-top: 0vw;
+    }
+
+
+    .gif1{
+        background: url("https://s3-alpha-sig.figma.com/img/6259/988f/0b3d0241ef275a4dfde8d2ce75cf8eb2?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CpajAiHXlCBaLa1~rb0bTpTI5l2cFIXEziEG4zqdOW5PlTNtuGravhLpbacQoXFzLABb1HcLIoovx-z2O6i6YBRIfWVkuri-wJSJrnW5OvmSoVhT5sQva3uwACMkoSkh3pPgCHEwBMGRXbnIuavav-GAKievQvARbluLuRAZxZ2BUKk12O4kS~0ub~oPA6vEoDCiZ9Xb4E-idN~j93YTgRnOL7TDLT4wwp1QMsHHQNN9k6Th5nxcoF3srnxHzLOlD49rTTpVeUlZKnZ3mK4khAwv5qtVPhtscicZf-ZNySxa0kVYogJWkttVJOymYQ8Vo35rdcq9bqv2lulfDh1EtA__");
+        background-size: cover;
+        width:17%;
+        height:17vw;
+        position: absolute;
+        right: 0;
+        top: 35%;
+        
+    }
+    .gif2{
+        background: url("https://s3-alpha-sig.figma.com/img/7d47/0464/684acd2c1c836f88068749b41a39f125?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n8eNxOptDnkZEK2cDqS1Sxusn62IRTxMDRBBQYEDx9mYXiBb4kqvEzNUi5vZd9uiHEHlOSYoLdJR4NZZBLE0aSiPN7ZSqpPPZKzltmbYTqZQ6tr~aw1PDMj4uk0OA~fJwz4jMSmYSKUd-UjgzNCZ6bpZ2IxymB289x~mtjGaC~xjc34e2hVtrjO6jUVtltEk0x00jKNndi0L8D0DIyNZgj9B-oXTWog-9SsoWqrl284j8pr4G94X7VumABoCEcg4gjanWA~kskve6ZcN8Yx1eOcKlpEh1a3PzkjHRc~d0T~w6dKcyiAkoT0rj1M-TzeeHigoHPJzueh3Ut1Xa3UmSA__");
+        background-size: cover;
+        width:16%;
+        height:16vw;
+        position: absolute;
+        left: 21%;
+        top: 84%;
+    
+    }
+
+
+
+
+    .tkn-line{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 75%;
+        margin: auto;
+        padding:4vw 1vw;
+        height: 8vw;
+        background: linear-gradient(90deg ,#6a3c4e,#40101f);
+        gap: 2vw;
+        margin-top: 2vw;
+        text-align: center;
+        
+        
+    
+    }
+    .tkn-line p{
+        font-size:1.7vw;
+        color: #fff;
+        font-family: prg;
+        line-height: 2.7vw;
+    
+    }
+    .tkn-line img{
+        height: 4vw;
+    }
+    .token-sec{
+        margin-top:10vw;
+        position: relative;
+    }
+    .txt{
+        text-align: center;
+    }
+    .txt img{
+        width: 7vw;
+    }
+    .txt h4{
+        font-size:4vw;
+        color: #fff;
+        font-family: hdd;
+        letter-spacing: 1px;
+    
+    }
+    .rd img{
+        width: 7vw;
+    }
+    .rd h4{
+        font-size: 6vw;
+        font-family: hdd;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    /* ------------------------------------------------- */
+    .hddd h4{
+        font-size:2vw;
+        color:#a3333f;
+        width: 100;
+        font-family: prg;
+    }
+    .texxt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        margin-top: 2vw;
+        margin-left: 5vw;
+        width: 100%;
+    }
+    .texxt ul{
+        width:90%;
+    }
+    .texxt ul li{
+        color: #fff;
+        font-size: 1.7vw;
+        line-height: 1.8vw;
+        font-family: prg;
+        list-style: disc;
+        
+    }
+
+    .road-sec .img  img{
+        width: 70vw;
+        display: flex;
+        margin: auto;
+    }
+    .two{
+        transform: translateX(2.5vw);
+    }
+    .three{
+        transform: translateX(.1vw);
+    }
+    
+
+
+
+
+
+    /* -------------- */
+    .road-sec{
+        display: block;
+        width: 85%;
+        
+    }
+
+
+
+    .rod-mbl{
+        display: block;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 20vw;
+       position: relative;
+       display: none;
+       
+    }
+    .phs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20%;
+
+    }
+    .roadd{
+        width: 60%;
+        transform: translateX(-5vw);
+    }
+    .roadd img{
+        display: flex;
+        margin: auto;
+        width: 50vw;
+        transform: rotate(-90deg);
+    }
+    .ull{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .hddd .h1{
+        position: absolute;
+        left: 9.5%;
+        top: -40%;
+    } 
+    .phs .h2{
+        position: absolute;
+        left:33.5%;
+        top: -50%;
+    } 
+    .phs  .h3{
+        position: absolute;
+        left: 57.5%;
+        top: -50%;
+    } 
+    .phs .h4{
+        position: absolute;
+        left:26%;
+        top: 80%;
+    }
+    .phs h4{
+    font-size:2.5vw;
+    color:#a3333f;
+    width: 100;
+    font-family: prg;
+    
+}
+.texxt ul li{
+    color: #fff;
+    font-size: 1.8vw;
+    line-height: 2.8vw;
+    font-family: prg;
+    list-style: disc;
+    
+}
+.end{
+    font-size: 2vw;
+    color: #fff;
+    font-family: prg;
+    position: absolute;
+    top: 94.5%;
+    left: 32%;
+}
+.cnttr .opr img{
+    width: 39vw;
+}
+.cnttr .lwr img{
+    width: 17vw;
+    transition: .4s;
+}
+.rock{
+    width: 18vw;
+    position: absolute;
+    left: 65%;
+    top: 58%;
+    animation: name 3s linear infinite alternate;
+}
+.cnttr .opr img{
+    width: 30vw;
+}
+.cnttr .lwr img{
+    width: 12vw;
+    transition: .4s;
+}
+.hddd  .h1{
+    position: absolute;
+    left: 9%;
+    top: -30%;
+} 
+.hddd  .h2{
+    position: absolute;
+    left:33.5%;
+    top: -30%;
+} 
+.hddd  .h3{
+    position: absolute;
+    left: 57.5%;
+    top: -30%;
+} 
+.hddd  .h4{
+    position: absolute;
+    left: 82%;
+    top: -30%;
+}
+.gif3{
+    background: url("../images/gif1.gif");
+     background-size: cover;
+    width:10%;
+    height:9vw;
+    position: absolute;
+    right:3%;
+    top: 50%; 
+
+    
+    
+
+}
+}
